@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.pandziobak</groupId>
-  <artifactId>Deal 24 cards deck</artifactId>
+  <artifactId>deal-24-cards-deck</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
@@ -41,7 +41,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass><!-- enter path to main class --></mainClass>
+                            <mainClass>com.pandziobak.app.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -8,16 +8,18 @@ public class Main {
 
     public static void main(String[] args) {
         int playerNumber;
-        try{
-            playerNumber = Integer.valueOf(args[0]);
-            deck = createDeck();
-            playersHands = createEmptyHandsForPlayers(playerNumber);
-            dealCards();
-            printPlayersHands();
+        if (args.length > 0) {
+            try {
+                playerNumber = Integer.valueOf(args[0]);
+                deck = createDeck();
+                playersHands = createEmptyHandsForPlayers(playerNumber);
+                dealCards();
+                printPlayersHands();
+            } catch (NumberFormatException e) {
+                System.out.printf("Give a number in args[0] !!");
+            }
         }
-        catch (NumberFormatException e){
-            System.out.printf("Give a number in args[0] !!");
-        }
+        else System.out.println("Put number of players in args[0] !!");
 
     }
 
