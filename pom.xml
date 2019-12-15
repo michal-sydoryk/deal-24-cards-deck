@@ -3,7 +3,7 @@
   	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.pandziobak</groupId>
+  <groupId>com.epam.academy</groupId>
   <artifactId>deal-24-cards-deck</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -41,7 +41,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.pandziobak.app.Main</mainClass>
+                            <mainClass>com.epam.academy.app.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,4 +1,4 @@
-package com.pandziobak.app;
+package com.epam.academy.app;
 
 import java.util.*;
 
