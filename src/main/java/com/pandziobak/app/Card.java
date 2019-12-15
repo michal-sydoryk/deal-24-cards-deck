@@ -1,15 +1,16 @@
 package com.pandziobak.app;
 
-public enum Card {
-    NINE,
-    TEN,
-    JACK,
-    QUEEN,
-    KING,
-    AS;
+public class Card {
+    private CardFace cardFace;
+    private CardFigure cardFigure;
+
+    public Card(CardFace cardFace, CardFigure cardFigure) {
+        this.cardFace = cardFace;
+        this.cardFigure = cardFigure;
+    }
 
     @Override
     public String toString() {
-        return this.name();
+        return "[ " + cardFace + cardFigure + " ]";
     }
 }
